@@ -6,7 +6,15 @@ font-family: 'Work Sans', sans-serif;
 }
 .btn-primary
 {
-    
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 20px 30px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    border: 0px;
+    cursor: pointer;
 }
 /*Header Styles*/
 header
@@ -70,4 +78,77 @@ nav li > a
     font-style: normal;
     font-weight: 400;
     line-height: 26px; 
+}
+
+.banner img
+{
+    margin-top: 20px;
+    width: 100%;
+}
+/*Responsive Styles*/
+/*Mobile Styles*/
+@media screen and (max-width:576px) 
+{
+   header
+   {
+    padding:20px;
+   } 
+   nav
+   {
+    flex-direction: column;
+   }
+   nav li 
+{
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size:1.4rem;
+   
+}
+.btn-primary
+{
+    padding: 15px 20px;
+    font-size: 1rem;
+   }
+.banner-title
+{
+    font-size:2rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description
+{
+    font-size: 14px;   
+}
+
+}
+
+/*Medium Styles*/
+@media screen and (min-width:576px) and (max-width: 960px) 
+{
+    header
+    {
+     padding: 20px;
+    } 
+    nav
+   {
+    flex-direction: column;
+   }
+   .banner-title
+{
+    font-size:2rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-content
+{
+    max-width: 400px;
+    
+}
+.btn-primary
+{
+    padding: 15px 20px;
+    font-size: 1rem;
+}
+   
 }
