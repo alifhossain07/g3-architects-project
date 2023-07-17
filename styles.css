@@ -28,7 +28,7 @@ nav
     justify-content: space-between;
     align-items: center;
 }
-.nav-title
+.section-title
 {
     font-size:3rem;
     color:#131313;
@@ -78,6 +78,10 @@ nav li > a
     font-style: normal;
     font-weight: 400;
     line-height: 26px; 
+}
+.color
+{
+    color:#727272;
 }
 
 .banner img
@@ -191,7 +195,11 @@ main
 .teams-container
 {
     
-    margin-left: 20px;
+    margin-left: 0px;
+}
+.teams-content{
+    padding-right:20px;
+    padding-left: 20px;
 }
 
 
